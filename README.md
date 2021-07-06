@@ -8,4 +8,11 @@ Some of the following topics are included:
 - A simple Flask webserver
 
 ### Flask Examples
-- To run `flask_example.py`, use `FLASK_APP=Flask/flask_example.py FLASK_DEBUG=true flask run`
+- Activate your virtualenv
+```bash
+source venv/bin/activate
+```
+- To run `flask_example.py`, use
+```bash
+FLASK_APP=Flask/flask_example.py FLASK_DEBUG=true flask run
+```
